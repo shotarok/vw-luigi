@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ## Usage Example
 
-In case you use `/tmp/work/space/train.vw` as training data, `/tmp/work/space/test.vw` as test data and *squared loss* as loss function, you can get the evaluation result, which includes (AUROC, AUPR and LossLoss calculated by *scikit-learn*), following to below commands.
+In case you use `/tmp/work/space/train.vw` as training data, `/tmp/work/space/test.vw` as test data and *squared loss* as loss function, you can get the evaluation result, which includes AUROC, AUPR and LossLoss calculated by *scikit-learn*, following to below commands.
 
 ```shell
 $ cd vw-luigi
@@ -36,7 +36,7 @@ $ cat /tmp/work/space/result.txt
 > AUROC:0.88060 AUPR:0.72192 LOGLOSS:0.36215
 ```
 
-If you are interested in vw-luigi, please see the `sample` directory. I wrote another usage example using ['Kaggle Display Advertising Challenge Dataset'](http://criteolabs.wpengine.com/downloads/2014-kaggle-display-advertising-challenge-dataset/) provided by Critio.
+If you are interested in vw-luigi, please see this blog post ["'Kaggle Display Advertising Challenge' working with vw-luigi"](http://blog.shotarok.com/post/2016-05-03-vwluigi_with_critio_dataset/). I wrote another usage example using ['Kaggle Display Advertising Challenge Dataset'](http://criteolabs.wpengine.com/downloads/2014-kaggle-display-advertising-challenge-dataset/) provided by Critio.
 ## Release History
 
 * 0.1.0
