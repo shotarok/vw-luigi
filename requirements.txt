@@ -1,6 +1,6 @@
 docutils==0.12
 lockfile==0.12.2
-luigi==2.1.1
+luigi==2.8.0
 numpy==1.11.0
 python-daemon==2.1.1
 scikit-learn==0.17.1
